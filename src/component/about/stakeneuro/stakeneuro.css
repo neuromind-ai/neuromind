@@ -180,7 +180,7 @@
     width: 301px;
     height: 27px;
     position: relative;
-    animation: moveArrow 2.1s linear infinite;
+    /* animation: moveArrow 2.1s linear infinite; */
 }
 
 
@@ -203,7 +203,7 @@
     width: 301px;
     height: 27px;
     position: relative;
-    animation: moveArrow1 2.3s linear infinite;
+    /* animation: moveArrow1 2.3s linear infinite; */
 }
 
 /* Define the animation keyframes */
@@ -227,7 +227,7 @@
 .svg-container2 {
     width: 34px;
     height: 267px;
-    animation: moveArrow2 3.4s infinite alternate;
+    /* animation: moveArrow2 3.4s infinite alternate; */
 }
 
 @keyframes moveArrow2 {
@@ -250,7 +250,7 @@
 .svg-container3 {
     width: 34px;
     height: 240px;
-    animation: moveArrow2 3s infinite alternate;
+    /* animation: moveArrow2 3s infinite alternate; */
 }
 
 @keyframes moveArrow3 {
