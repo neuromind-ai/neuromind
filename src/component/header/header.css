@@ -1,0 +1,39 @@
+.header_container{
+    width: 100%;
+    position: fixed;
+    border: 0.1px solid #999494;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: #010213;
+    background: radial-gradient(circle, rgba(17,60,57,1)0% , rgba(1,2,19,1) 50%);
+   
+
+}
+
+.logo_and_name{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-self: center;
+}
+.logo{
+    color: yellow;
+    font-size: 28px;
+    display: none;
+    
+}
+.header_text{
+    color: white;
+    text-transform: uppercase;
+    font-size: var(--header-font-size);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.header_text p{
+    font-size: var(--sub-header-font-size);
+    text-transform: capitalize;
+}

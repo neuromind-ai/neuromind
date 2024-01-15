@@ -1,0 +1,150 @@
+.team_main_container{
+    display: flex;
+    padding-top: 6rem;
+    background: radial-gradient(circle, rgba(17,60,57,1)0% , rgba(1,2,19,1) 50%);
+}
+.divider {
+   background: #1c3030;
+   padding: 1.7rem 4rem 1.6rem 5rem;
+   font-size: var(--divider-font-size);
+   font-weight: 700;
+    
+  }
+.our_team{
+    padding-left: 8rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+.svg_and_text img img{
+    width: 70%;
+
+}
+.sub_team_main_container{
+    position: relative;
+}
+.profile_photo{
+    position: absolute;
+    top: 37%;
+    padding-left: 28rem;
+
+
+
+
+}
+.profile_photo img{
+    width: 65%;
+
+}
+.profile_photo .img_1 img{
+    height: 133px;
+    width: 132px;
+    border-radius: 75px;
+    
+}
+.img_photo{
+    margin-top: -220px;
+    display: flex;
+    padding-left: 7rem;
+    gap: 6rem;
+}
+.text_and_mission{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 6rem;
+
+}
+.two_svg_and_text_company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+.sub_all_company_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sub_all_company_img img{
+    width: 13%;
+    aspect-ratio: 3/4;
+
+}
+.mayank_svg_and_text_company_1{
+    position: relative;
+    width: 100%;
+}
+.mayank_svg_and_text_company_1 .all_company_img{
+    padding-left: 2rem;
+    position: absolute;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 89%;
+    padding-top: 3rem;
+
+}
+.all_company_img p{
+    width: 85%;
+    color: #D2D4ED;
+    font-size: 23px;
+    padding-left: 2rem;
+}
+.alex_svg_and_text_company_1{
+    position: relative;
+    width: 100%;
+}
+.alex_svg_and_text_company_1 .all_company_img{
+    padding-left: 2rem;
+    position: absolute;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 89%;
+    padding-top: 3rem;
+
+}
+.all_company_img p{
+    width: 85%;
+    color: #D2D4ED;
+    font-size: 23px;
+    padding-left: 2rem;
+}
+.img{
+    position: absolute;
+    top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4rem;
+
+
+}
+
+.img
+.img img{
+     width: 62%;;
+}
+.profile_photo .img_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.profile_photo .img_1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    gap: 0.4rem;
+    color: white;
+}
+
+.profile_photo .img_1 a:hover {
+    color: #61dafb;
+  }
+  .profile_photo .img_1 a[href*="linkedin"] {
+    color: #0077b5; 
+  }

@@ -1,0 +1,270 @@
+.stake_main_container {
+    display: flex;
+    gap: 10rem;
+    padding-top: 6rem;
+    background: radial-gradient(circle, rgba(17, 60, 57, 1)0%, rgba(1, 2, 19, 1) 50%);
+
+}
+
+.stake_topic {
+    font-size: var(--divider-font-size);
+    font-weight: 700;
+    padding: 1.7rem 4rem 1.6rem 5rem;
+    background: #1c3030;
+}
+
+.sub_two_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+
+}
+
+.three_content_stake {
+    display: flex;
+    padding-top: 6rem;
+
+}
+
+.sub_three_hex_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.neuro_holder_hex_content {
+    display: flex;
+    height: 50vh;
+    padding-bottom: 1rem;
+    
+}
+
+.neuro_holder_hex_content .gray_svg_2 {
+    position: relative;
+}
+
+.neuro_holder_hex_content .gray_svg_2 p {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+
+}
+
+.sub_two_content .gray_svg_1 {
+    position: relative;
+}
+
+.sub_two_content .gray_svg_1 p {
+    position: absolute;
+    top: 39%;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+
+}
+
+.two_arrow_row {
+    display: flex;
+    font-size: 23px;
+    font-weight: 900;
+
+}
+
+.two_arrow_column {
+    align-items: center;
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 900;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    padding-bottom: 4rem;
+}
+
+.two_hex {
+    display: flex;
+    gap: 9rem;
+}
+
+
+.hexagon2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px; /* 40% increase from 100px */
+    height: 81.2px; /* 40% increase from 58px */
+    background-color: #0b5b47;
+    position: relative;
+    box-shadow: 0 0 10px 1px rgba(11, 91, 75, 0.5);
+}
+
+.hexagon2:before,
+.hexagon2:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    border-left: 70px solid transparent; 
+    border-right: 70px solid transparent;
+}
+
+.hexagon2:before {
+    top: -39.6px;
+    border-bottom: 40.6px solid #0b5b47; 
+}
+
+.hexagon2:after {
+    bottom: -39.6px; 
+    border-top: 40.6px solid #0b5b47; 
+}
+
+
+.one_hex .gray_svg_3 {
+    position: relative;
+}
+
+.gray_svg_3 {
+    position: relative;
+}
+
+.gray_svg_3 p {
+    left: 55px;
+    width: 64%;
+    position: absolute;
+    text-align: center;
+    top: 59px;
+
+}
+
+.sub_three_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub_three_content .gray_svg_sub_three_content {
+    position: relative;
+}
+
+.sub_three_content .gray_svg_sub_three_content p {
+    width: 70%;
+    left: 15%;
+    position: absolute;
+    top: 37%;
+    text-align: center;
+}
+
+.arrow_vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+}
+
+
+/* Apply styles to the SVG container */
+.svg-container {
+    width: 301px;
+    height: 27px;
+    position: relative;
+    animation: moveArrow 2.1s linear infinite;
+}
+
+
+/* Define the animation keyframes for the first arrow */
+@keyframes moveArrow {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.svg-container1 {
+    width: 301px;
+    height: 27px;
+    position: relative;
+    animation: moveArrow1 2.3s linear infinite;
+}
+
+/* Define the animation keyframes */
+@keyframes moveArrow1 {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(30px);
+        /* Adjust the distance you want the arrow to move */
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* //////////////////////////////// */
+
+.svg-container2 {
+    width: 34px;
+    height: 267px;
+    animation: moveArrow2 3.4s infinite alternate;
+}
+
+@keyframes moveArrow2 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(50px);
+        /* Adjust the distance you want the arrow to move */
+    }
+
+    100% {
+        transform: translateY(20px);
+        /* Adjust the vertical distance you want the arrow to move */
+    }
+}
+
+
+.svg-container3 {
+    width: 34px;
+    height: 240px;
+    animation: moveArrow2 3s infinite alternate;
+}
+
+@keyframes moveArrow3 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(50px);
+        /* Adjust the distance you want the arrow to move */
+    }
+
+    100% {
+        transform: translateY(20px);
+        /* Adjust the vertical distance you want the arrow to move */
+    }
+}
