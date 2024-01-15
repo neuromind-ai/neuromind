@@ -18,12 +18,12 @@ export default function Footer() {
         <p>NEUROMIND</p>
         <div className="link">
           <ul className="hyper_link">
-            <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaLinkedin />Linked In</a></li>
-            <li><a href="http://neuromind.network@gmail.com" target="_blank" rel="noopener noreferrer"><MdOutlineAlternateEmail />Email</a></li>
+            {/* <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaLinkedin />Linked In</a></li> */}
+            {/* <li><a href="http://neuromind.network@gmail.com" target="_blank" rel="noopener noreferrer"><MdOutlineAlternateEmail />Email</a></li> */}
             <li><a href="http://instagram.com/neuromind_ai/" target="_blank" rel="noopener noreferrer"><FaInstagram />Instagram</a></li>
-            <li><a href="http://" target="_blank" rel="noopener noreferrer"><FiMessageCircle />Message</a></li>
+            {/* <li><a href="http://" target="_blank" rel="noopener noreferrer"><FiMessageCircle />Message</a></li> */}
             <li><a href="http://twitter.com/neuromind_ai" target="_blank" rel="noopener noreferrer"><FaTwitter />Twitter</a></li>
-            <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaFacebook />Facebook</a></li>
+            {/* <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaFacebook />Facebook</a></li> */}
           </ul>
         </div>
 

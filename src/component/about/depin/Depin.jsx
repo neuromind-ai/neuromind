@@ -21,7 +21,7 @@ export default function Depin() {
                     <div className="three_content">
                         <div className="content_1">
                             <div className="sub_content_1">
-                                  <div className="ai_token">
+                                  {/* <div className="ai_token"> */}
 
                                 <div className="svg_container_1">
                                     <div className="svg_1">
@@ -42,8 +42,8 @@ export default function Depin() {
                                     </div>
 
                                 </div>
-                                <p>Ai Token</p>
-                                  </div>
+                                {/* <p>Ai Token</p> */}
+                                  {/* </div> */}
                                 <div className="svg_container_2">
                                     <div className="svg_1">
 
